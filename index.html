@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    
+    <div class="container containerlogin w-50 text-center m-auto  my-5 py-5">
+        <div class="login">
+            <h1>Smart Login System</h1>
+            <form class="form-group px-5" action="">
+                <input required id="loginEmail" class="form-control bg-transparent text-white placeholder-wave my-4 mb-3" type="email" placeholder="Enter Your Email">
+                <input required id="loginPassword" class="form-control bg-transparent text-white placeholder-wave mb-4" type="password" placeholder="Enter Your password">
+                <button id="loginBtn" class="form-control bg-transparent mb-3 text-center">Login</button>
+            </form>
+            <p  id="worngMessage" class="text-danger d-none">Invalid email or password</p>
+            <p class="text-white">Don't have an account? <a id="ancorLogIn" href="" class="text-light">Sign Up</a></p>
+        </div>
+    </div>
+
+
+    <div class="container containersignup w-50 text-center m-auto  my-5 py-5 d-none">
+        <div class="signup">
+            <h1>Smart Login System</h1>
+            <form class="form-group px-5" action="">
+                <input required id="signupName" class="form-control bg-transparent text-white placeholder-wave my-4 mb-3" type="text" placeholder="Enter Your Name">
+                <input required id="signupEmail" class="form-control bg-transparent text-white placeholder-wave mb-2" type="email" placeholder="Enter Your Email">
+                <p id="warningEmail" class="text-start text-danger d-none ">that email was taken befor</p>
+                <input required id="signupPassword" class="form-control bg-transparent text-white placeholder-wave mb-4" type="password" placeholder="Enter Your password">
+                <button id="signupBtn"  class="form-control bg-transparent mb-3">sign Up</button>
+            </form>
+            <p class="text-white">Don't have an account? <a id="ancorSignIn" href="" class="text-light">Sign in</a></p>
+        </div>
+    </div>
+
+    <div class="container containerWelcom w-50 text-center m-auto  my-5 py-5 d-none">
+        <div class="welcome text-white">
+            <h1 id="welcomText">Welcome </h1>
+            <p class="text-white">back=> <a id="ancorBack" href="" class="text-light">ReSign</a></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

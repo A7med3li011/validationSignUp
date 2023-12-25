@@ -1,0 +1,34 @@
+body {
+    background-color: #24353F;
+}
+
+.container {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login h1,
+.signup h1 {
+    color: #17A2B8;
+}
+
+.login button,
+.signup button {
+    color: #17A2B8;
+    border: 1px solid #17A2B8;
+    transition: all .4s;
+}
+
+.login input::placeholder,.signup input::placeholder {
+    color: rgb(169, 169, 169);
+}
+
+.login button:hover,.signup button:hover {
+    background-color: #17A2B8 !important;
+    color: white;
+
+}
+
+.containerlogin{
+    /* display: none; */
+    
+}
